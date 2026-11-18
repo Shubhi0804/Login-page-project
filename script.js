@@ -7,10 +7,10 @@ if (passwordInput && togglePassword) {
     togglePassword.addEventListener("click", function() {
         if (passwordInput.type === "password") {
             passwordInput.type = "text";
-            togglePassword.textContent = "🙈 Hide Password";
+            togglePassword.textContent = "🙈";
         } else {
             passwordInput.type = "password";
-            togglePassword.textContent = "👁️ Show Password";
+            togglePassword.textContent = "👁️";
         }
     });
 }
